@@ -12,4 +12,4 @@ Predict which users will generate revenue based on behavioral events. Read users
 
 ## 3. AI Pipeline
 
-Standardize messy campaign names into structured fields: channel, campaign_type, season, and version. Read from data/campaigns.csv.
+Standardize messy campaign names into structured fields using Claude as an AI pipeline. Use a generate.py stage that calls the Anthropic API to parse each campaign name into channel, campaign_type, season, and version. Read from data/campaigns.csv.
