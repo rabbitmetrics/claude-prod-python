@@ -267,13 +267,11 @@ Run with `hatch test tests/unit` or `hatch test tests/evals`. See [hatch testing
 
 ## Generating Pipelines
 
-When asked to create a pipeline:
+When given a prompt, generate the pipeline directly from the prompt description:
 
-1. Ask what data source and destination
-2. Ask if ML or AI stages needed
-3. Generate the structure above
-4. Include only the stages required
-5. Keep transforms minimal until user specifies logic
+1. Generate the structure above
+2. Include only the stages required
+3. Keep transforms minimal until user specifies logic
 
 Don't over-engineer. Start simple, extend when needed.
 
